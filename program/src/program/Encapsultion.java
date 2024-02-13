@@ -9,8 +9,9 @@ public class Encapsultion {
 			Sbi employee=new Sbi();
 			System.out.println(employee.name);
 			System.out.println(employee.ac);
-			
+			employee.getAmount(1234);
 			employee.setPin(1234, 12345);
+			
 			
 
 
